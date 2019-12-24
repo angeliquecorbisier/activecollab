@@ -1,0 +1,245 @@
+html {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    background-color: #e6e7ed;
+
+}
+
+
+/* ----------- navigation ------------- */
+
+
+nav {
+    height: 150px;
+    width: 100%;
+    margin: -20px -10px 0px -10px;
+    background: #e6e7ed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu1 {
+
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+
+#menu2 {
+
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+nav img {
+    width: 100px;
+    height: 50px;
+    margin-top: -20px;
+    margin-bottom: -1px;
+}
+
+li {
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style-type: none;
+    color: black;
+    font-size: 14px;
+
+}
+
+#gratuit {
+    color: white;
+    display: inline;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: blue;
+}
+
+
+#connexion {
+    color: black;
+    display: inline;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+}
+
+
+/* ----------- partie accroche ------------- */
+
+.accroche {
+    text-align: center;
+}
+
+/* ----------- liste fonctions ------------- */
+.listefonctions {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: center;
+
+}
+
+.listefonctions article {
+    border: 1px solid #000000;
+    padding: 60px;
+    margin: 0px;
+    text-align: center;
+    background-color: #3e4758;
+}
+
+.listefonctions img {
+    height: 50px;
+    width: 50px;
+}
+
+/* ----------- partie accroche 2------------- */
+
+.accroche2 {
+    text-align: center;
+}
+
+.boutonessai {
+    text-align: center;
+
+}
+
+#gratos {
+    color: black;
+    display: inline;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+
+}
+
+.screen img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----------- accroche3------------- */
+
+.accroche3 {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 10px;
+
+}
+
+/* ----------- cloud------------- */
+
+.cloud {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    background-color: white;
+    justify-content: center;
+
+}
+
+.cloud article {
+    border: 1px solid #000000;
+    padding: 60px;
+    margin: 0px;
+    text-align: center;
+}
+
+.cloud img {
+    height: 50px;
+    width: 50px;
+}
+
+
+/* ----------- accroche4------------- */
+
+.accroche4 {
+    background-color: #e6e7ed;
+    text-align: center;
+
+}
+
+.accroche4 li {
+    display: inline-block;
+
+}
+
+.accroche4 img {
+    width: 100px;
+    height: 50px;
+
+}
+
+
+/* ----------- accroche5------------- */
+.accroche5 {
+    height: 300px;
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+
+}
+
+.accroche5 form {
+    background-color: #e6e7ed;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.accroche5 label {
+    font-weight: bold;
+    text-align: left;
+}
+
+/* ----------- footer------------- */
+
+footer {
+    width: cover;
+    background-color: #3e4758;
+    padding: 40px;
+
+}
+
+footer p {
+    text-align: center;
+}
+
+.foot {
+
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px;
+    justify-content: center;
+
+}
+
+#titrefoot{
+color: rgb(117, 103, 103);
+
+} 
+
+
+.sociaux {
+    text-align: center;
+
+}
+
+.sociaux li {
+    display: inline-block;
+
+}
+
+.sociaux img {
+    height: 50px;
+    width: 50px;
+}
